@@ -1,0 +1,96 @@
+@font-face {
+    font-family: first;
+    src: url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Festive&family=Poppins:wght@200&family=Roboto+Serif:ital,opsz,wght@1,8..144,200&family=Roboto:wght@900&family=Shizuru&display=swap');
+}
+
+@font-face {
+    font-family: second;
+    src: url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Festive&family=Poppins:wght@200&family=Roboto&family=Roboto+Serif:ital,opsz,wght@1,8..144,200&family=Shizuru&display=swap');
+}
+
+@font-face {
+    font-family: third;
+    src: url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Festive&family=Poppins:wght@200&family=Roboto+Serif:ital,opsz,wght@1,8..144,200&family=Roboto:wght@500&family=Shizuru&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* p {
+    letter-spacing: 0.5px;
+} */
+
+image {
+    width: 130px;
+    height: 130px;
+}
+
+
+.container {
+    display: flex;
+    height: 138px;
+    width: 457px;
+}
+
+.content {
+    padding: 10px 14px;
+}
+
+
+.left-space {
+    margin-right: 24px;
+}
+
+
+.bold {
+    font-family: first;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.regular {
+    font-family: second;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.medium {
+    font-family: third;
+    font-weight: 200;
+    font-size: 15px;
+    color: #858991;
+}
+
+.buttons {
+    margin-top: 24px;
+    display: flex;
+}
+
+.buttons>div {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+i {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+    color: black;
+}
